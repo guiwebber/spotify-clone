@@ -121,28 +121,28 @@ export default function Home() {
               <div className="flex my-5">
                 <div className="flex flex-wrap w-16 h-16">
                   <img
-                    src="/images/album1.png "
+                    src="/images/2e1.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-tl-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/2e2.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-tr-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/2e3.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-bl-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/2e4.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-br-xl"
                   />
                 </div>
                 <div className="mx-4">
-                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <h4 className="font-semibold text-xl">RAP/TRAP 2025</h4>
                   <div className="flex text-zinc-400 font-medium">
                     <p className="mr-1"> Playlist </p>
                     <p className="mr-1"> • </p>
@@ -152,29 +152,29 @@ export default function Home() {
               </div>
               <div className="flex my-5">
                 <div className="flex flex-wrap w-16 h-16">
-                  <img
-                    src="/images/album1.png "
+                <img
+                    src="/images/1e1.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-tl-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/1e2.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-tr-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/1e3.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-bl-xl"
                   />
                   <img
-                    src="/images/album1.png "
+                    src="/images/1e4.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-br-xl"
                   />
                 </div>
                 <div className="mx-4">
-                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <h4 className="font-semibold text-xl">TO SING</h4>
                   <div className="flex text-zinc-400 font-medium">
                     <p className="mr-1"> Playlist </p>
                     <p className="mr-1"> • </p>
