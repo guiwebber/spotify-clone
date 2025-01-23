@@ -22,11 +22,12 @@ import {
   faExpand,
   faWindowMaximize,
   faWindowRestore,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
-    <div className="bg-zinc-900 h-screen text-zinc-50 flex flex-col">
-      <header className="py-3 px-5 bg-black flex justify-between align-middle">
+    <div className="bg-black h-screen text-zinc-50 flex flex-col">
+      <header className="py-3 px-5 bg-transparent flex justify-between align-middle">
         <button className="flex">
           <FontAwesomeIcon icon={faSpotify} width={38} />
         </button>
@@ -73,11 +74,248 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className=" flex flex-1 ">
-        <aside className="w-80 ">Aside</aside>
-        <main className=" flex-1">Main</main>
+      <div className=" flex flex-1 gap-4 ">
+        <aside className="w-96 bg-zinc-900 rounded-2xl p-5">
+          <div className="flex justify-between text-zinc-400">
+            <button className="flex m-2 transition-all hover:text-zinc-50">
+              <FontAwesomeIcon icon={faList} width={25} className="mx-2" />
+              <p className="mx-2 font-bold text-lg">Sua biblioteca</p>
+            </button>
+            <div className="flex ">
+              <button className="mr-4 w-12 h-12 flex justify-center items-center rounded-full transition-all hover:bg-zinc-800 hover:text-zinc-50">
+                <FontAwesomeIcon icon={faPlus} width={20} className="m-1" />
+              </button>
+              <button className="mr-4 w-12 h-12 flex justify-center items-center rounded-full transition-all hover:bg-zinc-800 hover:text-zinc-50">
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  width={20}
+                  className="m-1"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-10">
+            <a
+              href="#"
+              className="px-5 py-2 bg-zinc-700 font-bold rounded-full transition-all hover:bg-zinc-600/80"
+            >
+              Playlists
+            </a>
+          </div>
+
+          <div className="mt-10 flex justify-between w-auto text-zinc-400">
+            <button className="w-10 h-10 rounded-full flex items-center justify-center hover:text-zinc-50 hover:bg-zinc-700">
+              <FontAwesomeIcon icon={faSearch} width={20} />
+            </button>
+            <a
+              href="#"
+              className="flex items-center font-semibold transition-all hover:text-zinc-50 hover:scale-105"
+            >
+              Recentes{" "}
+              <FontAwesomeIcon className="mx-2" icon={faList} width={20} />
+            </a>
+          </div>
+          <div className="mt-10">
+            <div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <main className=" flex-1 bg-zinc-900 rounded-2xl p-5">Main</main>
       </div>
-      <footer className="p-2  bg-black flex justify-between">
+      <footer className="p-2  bg-transparent flex justify-between">
         <div className="flex items-center">
           {" "}
           <img
