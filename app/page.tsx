@@ -14,13 +14,17 @@ export default function Home() {
   return (
     <div className="bg-zinc-900 h-screen text-zinc-50 flex flex-col">
       <header className="py-3 px-5 bg-black flex justify-between align-middle">
-        <div className=" flex">
+        <button className="flex">
           <FontAwesomeIcon icon={faSpotify} width={38} />
-        </div>
+        </button>
 
         <div className="flex ml-40 w-2/6 items-center ">
-          <button className=" bg-zinc-800 w-12 h-12 rounded-full pl-3 mr-5">
-            <FontAwesomeIcon icon={faHome} width={25} />
+          <button className=" bg-zinc-800 w-14 h-12 rounded-full  mr-5">
+            <FontAwesomeIcon
+              className="m-auto pl-0.5"
+              icon={faHome}
+              width={25}
+            />
           </button>
           <div className="bg-zinc-800 rounded-full w-full h-12 flex relative">
             <button className="p-1 pl-3 absolute top-2.5">
@@ -29,7 +33,7 @@ export default function Home() {
             <input
               type="text"
               placeholder="O que você quer ouvir?"
-              className=" bg-transparent w-full h-12  font-medium pb-1 pl-10"
+              className=" bg-transparent w-full h-12 rounded-full font-medium pb-1 pl-10"
             />
             <button className="pl-2 absolute top-3.5 right-3 border-zinc-500/40 border-l-2">
               <FontAwesomeIcon icon={faCompass} width={22} />
@@ -37,14 +41,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex h-auto justify-end align-middle items-center   text-zinc-300/90">
-          <div className="flex justify-center align-middle ">
+        <div className="flex h-auto justify-end align-middle items-center  text-zinc-300/90 ">
+          <button className="flex justify-center align-middle hover:text-zinc-50 transition-all">
             <FontAwesomeIcon icon={faDownload} width={20} className="m-1 " />
-            <a href="#" className="m-auto mx-2  font-bold">
+            <a href="#" className="m-auto mx-2  font-bold ">
               Instalar aplicativo
             </a>
-          </div>
-          <button className="mx-10">
+          </button>
+          <button className="mx-10 hover:text-zinc-50 transition-all">
             <FontAwesomeIcon icon={faBell} width={20} className="m-1" />
           </button>
           <div className="w-12 h-12 flex justify-center items-center rounded-full bg-zinc-800">
@@ -92,7 +96,10 @@ export default function Home() {
             </div>
           </div>
           <div className="mx-2">
-            <a href="#">
+            <a
+              href="#"
+              className=" text-zinc-400 hover:text-zinc-50 transition-all"
+            >
               <FontAwesomeIcon icon={faPlus} width={15} />
             </a>
           </div>
