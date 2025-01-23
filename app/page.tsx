@@ -9,6 +9,19 @@ import {
   faDownload,
   faBell,
   faPlus,
+  faChevronRight,
+  faChevronLeft,
+  faPause,
+  faPlay,
+  faRandom,
+  faRepeat,
+  faDesktop,
+  faList,
+  faMicrophone,
+  faVolumeHigh,
+  faExpand,
+  faWindowMaximize,
+  faWindowRestore,
 } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
@@ -70,10 +83,10 @@ export default function Home() {
           <img
             src="/images/album1.png "
             alt=""
-            className="  w-14 h-14 rounded-md m-2"
+            className="  w-20 h-20 rounded-md m-2"
           />
           <div className=" p-2 ">
-            <a className="font-semibold hover:underline cursor-pointer">
+            <a className="font-bold hover:underline cursor-pointer">
               Nome da música
             </a>
 
@@ -104,8 +117,113 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div>tes</div>
-        <div>tes</div>
+
+        <div className="mr-10 flex flex-col items-center text-zinc-400">
+          <div className="flex">
+            <button className="m-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faRandom}
+                width={25}
+              />
+            </button>
+            <button className="m-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faChevronLeft}
+                width={25}
+              />
+            </button>
+            <button className="w-12 h-12 rounded-full m-2 bg-zinc-50 ">
+              <FontAwesomeIcon
+                className="m-auto p-0.5"
+                icon={faPause}
+                width={25}
+                color="black"
+              />
+            </button>
+            <button className="m-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faChevronRight}
+                width={25}
+              />
+            </button>
+            <button className="m-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faRepeat}
+                width={25}
+              />
+            </button>
+          </div>
+          <div className="flex">
+            <p className="mx-4">00:00</p>
+            <p className="mx-4 hover:text-zinc-50 cursor-pointer">
+              BARRA DE PROGRESSO DA MUSICA
+            </p>
+            <p className="mx-4">10:00</p>
+          </div>
+        </div>
+
+        <div className="w-auto flex items-center text-zinc-400">
+          <div>
+            <button className=" mx-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faWindowMaximize}
+                width={25}
+              />
+            </button>
+            <button className=" mx-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faMicrophone}
+                width={20}
+              />
+            </button>
+            <button className=" mx-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faList}
+                width={25}
+              />
+            </button>
+            <button className=" mx-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faDesktop}
+                width={25}
+              />
+            </button>
+          </div>
+          <div className="flex">
+            <button className="mx-2 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5 hover:text-zinc-50"
+                icon={faVolumeHigh}
+                width={25}
+              />
+            </button>
+            <p className="hover:text-zinc-50 cursor-pointer">barra de volume</p>
+          </div>
+          <div className="mx-2 ">
+            <button className="mx-1 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faWindowRestore}
+                width={24}
+              />
+            </button>
+            <button className="mx-1 hover:text-zinc-50">
+              <FontAwesomeIcon
+                className="m-auto pl-0.5"
+                icon={faExpand}
+                width={24}
+              />
+            </button>
+          </div>
+        </div>
       </footer>
     </div>
   );
