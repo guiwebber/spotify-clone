@@ -152,7 +152,7 @@ export default function Home() {
               </div>
               <div className="flex my-5">
                 <div className="flex flex-wrap w-16 h-16">
-                <img
+                  <img
                     src="/images/1e1.jpg "
                     alt=""
                     className="  w-8 h-8 rounded-tl-xl"
@@ -313,7 +313,294 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <main className=" flex-1 bg-zinc-900 rounded-2xl p-5">Main</main>
+        <main className=" flex-1 bg-zinc-900 rounded-2xl p-5">
+          <div className="flex">
+            <div className="mt-10 mr-4">
+              <a
+                href="#"
+                className="px-5 py-2 bg-zinc-50 text-zinc-950 font-medium rounded-full transition-all hover:bg-zinc-600/80"
+              >
+                Tudo
+              </a>
+            </div>{" "}
+            <div className="mt-10 mr-4">
+              <a
+                href="#"
+                className="px-5 py-2 bg-zinc-700 font-medium rounded-full transition-all hover:bg-zinc-600/80"
+              >
+                Música
+              </a>
+            </div>{" "}
+            <div className="mt-10 mr-4">
+              <a
+                href="#"
+                className="px-5 py-2 bg-zinc-700 font-medium rounded-full transition-all hover:bg-zinc-600/80"
+              >
+                Podcasts
+              </a>
+            </div>
+          </div>
+          <div className="grid grid-cols-4 mt-10">
+            
+          <div className="flex my-5 bg-zinc-700 w-fit rounded-xl ">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex my-5 bg-zinc-700 w-fit rounded-xl">
+                <div className="flex flex-wrap w-16 h-16">
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-tr-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-bl-xl"
+                  />
+                  <img
+                    src="/images/album1.png "
+                    alt=""
+                    className="  w-8 h-8 rounded-br-xl"
+                  />
+                </div>
+                <div className="mx-4">
+                  <h4 className="font-semibold text-xl">Nome da playlist</h4>
+                  <div className="flex text-zinc-400 font-medium">
+                    <p className="mr-1"> Playlist </p>
+                    <p className="mr-1"> • </p>
+                    <p className="mr-1"> Gui Webber </p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </main>
       </div>
       <footer className="p-2  bg-transparent flex justify-between">
         <div className="flex items-center">
